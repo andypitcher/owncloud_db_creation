@@ -101,7 +101,7 @@ while True:
 						#Grant db_user on db_name
 						while True:
 							try:
-            							grant_user="GRANT SELECT, INSERT, DELETE ON "+db_name+".* TO "+db_user_full
+            							grant_user="GRANT ALL PRVILEGES ON "+db_name+".* TO "+db_user_full
                 						cursor.execute(grant_user)
 								print "\nDatabase '"+db_name+"' has been created!\n\nYou can configure the Owncloud for accessing the database as below:\nDatabase user: "\
 								+db_user+"\nDatabase password: "+db_user_pw+"\nDatabase name: "+db_name
