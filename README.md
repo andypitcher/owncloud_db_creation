@@ -2,7 +2,7 @@
 
 #### This python script creates automatically an owncloud MysQL database with secured generated credentials, and grants.
 
-It will ask the Mysql root password, and the domain name of the owncloud instance (with a shortcut name), then will create a provide the connection information of the new database, as shown below
+It will ask the Mysql root password, and the domain name of the owncloud instance (with a shortcut name), then will create and provide the connection information of the new database, as shown below
 
 ``` 
 
@@ -29,7 +29,7 @@ Database name: cloud_db_example
 
 ```
 
-The informations can now be used to fill out the below form during the Wizard. 
+The information can now be used to fill out the below form during the Wizard. 
 
 ![alt text](https://tecadmin.net/wp-content/uploads/2016/01/owncloud-setup-2.png)
 
