@@ -100,8 +100,8 @@ while True:
 						time.sleep(2)
 						#Grant db_user on db_name
 						while True:
-							try:
-            							grant_user="GRANT ALL PRVILEGES ON "+db_name+".* TO "+db_user_full
+							try:I
+            							grant_user="GRANT ALL PRIVILEGES ON "+db_name+".* TO "+db_user_full
                 						cursor.execute(grant_user)
 								print "\nDatabase '"+db_name+"' has been created!\n\nYou can configure the Owncloud for accessing the database as below:\nDatabase user: "\
 								+db_user+"\nDatabase password: "+db_user_pw+"\nDatabase name: "+db_name
